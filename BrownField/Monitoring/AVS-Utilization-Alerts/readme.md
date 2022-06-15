@@ -13,8 +13,20 @@ This scenario also includes service health alerts to ensure you don't miss any u
 ## Deployment Steps
 
 * Update the parameter values in appropriate parameter file.
-
+   
 * Run one of the following scripts.
+
+### Parameter Values
+
+| Parameter | Description |
+--- | --- |
+| Subscription | All resources in an Azure subscription are billed together. |
+| Resource Group | A resource group is a collection of resources that share the same lifecycle, permissions, and policies.|
+| Region | A resource group is a collection of resources that share the same lifecycle, permissions, and policies. |
+| Action Group Name | Name of the action group to be created |
+| Alert Prefix | Prefix to use for alert creation |
+| Action Group Email | Email addresses to be added to the action group. Use the format ["name1@domain.com","name2@domain.com"]. |
+| Private Cloud Resource Id | The existing Private Cloud full resource id. Use the format /subscriptions/<subscription_ID>/resourceGroups/<ResourceGroup_Name>/providers/Microsoft.AVS/privateClouds/<AVS_PrivateCloud_Name>. |
 
 ### Bicep
 
